@@ -45,7 +45,7 @@
     
     
     </nav>
-    
+
     <div id="control">
         <button id="expand-all" class="light h2">Expand All</button>
         <button id="close-all" class="light h2">Collapse All</button>
@@ -498,8 +498,7 @@
                         </div>
             
                         <div class="description">
-                            <p>Visual identity, brand typeface, exhibition materials and invitation design for NYB Gallery in
-                                Kirkland, WA.</p>
+                            <p>Brand typeface for NYB GALLERY.</p>
                         </div>
             
                     </div>
@@ -792,6 +791,7 @@
         $('#items-1').sortable({
             group: 'list',
             animation: 250,
+            handle: '.handle',
             ghostClass: 'ghost',
             onSort: reportActivity,
         });
@@ -800,6 +800,7 @@
         $('#items-2').sortable({
             group: 'list',
             animation: 250,
+            handle: '.handle',
             ghostClass: 'ghost',
             onSort: reportActivity,
         });
