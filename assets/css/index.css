@@ -476,12 +476,12 @@ a,
   width: 50%;
   height: 100%;
   /* margin-top: calc(0px - (var(--swiper-navigation-size) / 2)); */
-  /* z-index: 10;
+  z-index: 10;
   cursor: col-resize;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--swiper-navigation-color, var(--swiper-theme-color)); */
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
 /* .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
