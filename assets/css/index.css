@@ -91,7 +91,7 @@ h2,
 
 p {
   margin: 0;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.02em;
 }
 
@@ -963,7 +963,7 @@ button.swiper-pagination-bullet {
 
 @media only screen and (max-width: 1280px) {
   body {
-    margin: 1rem 2rem 4rem;
+    margin: 1rem 1rem 4rem;
   }
 
   .grid {
@@ -1026,7 +1026,10 @@ button.swiper-pagination-bullet {
 
 @media only screen and (max-width: 425px) {
   body {
+    margin: 1rem 0 3.5rem;
+
     font-size: 0.9rem;
+    letter-spacing: ;
   }
 
   #header {
@@ -1038,8 +1041,8 @@ button.swiper-pagination-bullet {
     font-size: 1.3rem;
   }
 
-  body {
-    margin: 1rem 0 3.5rem;
+  p {
+    letter-spacing: -0.04em;
   }
 
   .arrow {
