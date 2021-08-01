@@ -208,20 +208,22 @@ a,
   background-color: transparent;
 }
 
-.light:hover .element {
-  color: var(--color-white);
+@media (hover: hover) and (pointer: fine) {
+  .light:hover .element {
+    color: var(--color-white);
 
-  filter: blur(0.05rem);
-  animation: dimming 0.1s infinite;
-}
+    filter: blur(0.05rem);
+    animation: dimming 0.1s infinite;
+  }
 
-button.light:hover,
-a:hover {
-  color: var(--color-white);
-  background-color: var(--color-black);
+  button.light:hover,
+  a:hover {
+    color: var(--color-white);
+    background-color: var(--color-black);
 
-  filter: blur(0.05rem);
-  animation: dimming 0.1s infinite;
+    filter: blur(0.04rem);
+    animation: dimming 0.1s infinite;
+  }
 }
 
 @keyframes dimming {
@@ -309,15 +311,24 @@ a:hover {
   align-items: center;
 }
 
-.active #handle-icon,
-.accordion:hover #handle-icon {
+.active #handle-icon {
   fill: var(--color-light);
 }
 
-.active,
-.accordion:hover {
+.active {
   background-color: var(--color-accordionbg);
   color: var(--color-white);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .accordion:hover #handle-icon {
+    fill: var(--color-light);
+  }
+
+  .accordion:hover {
+    background-color: var(--color-accordionbg);
+    color: var(--color-white);
+  }
 }
 
 .accordion:after {
