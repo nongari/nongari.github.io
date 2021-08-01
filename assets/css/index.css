@@ -99,6 +99,10 @@ figure {
   margin: 0;
 }
 
+:focus-visible {
+  outline: none !important;
+}
+
 .link-arrow {
   font-size: 2rem;
 }
