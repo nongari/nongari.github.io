@@ -1,0 +1,22 @@
+title: Default
+columns:
+  # main
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          h1:
+            label: H1
+            type: textarea
+          text:
+            label: Info
+            type: textarea
+            size: small
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        headline: Files
