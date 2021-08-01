@@ -536,13 +536,13 @@ a,
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
-.swiper-button-prev.swiper-button-disabled,
+/* .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
   opacity: 0.35;
   cursor: auto;
   pointer-events: none;
-}
-.swiper-button-prev:after,
+} */
+/* .swiper-button-prev:after,
 .swiper-button-next:after {
   font-family: swiper-icons;
   font-size: var(--swiper-navigation-size);
@@ -551,25 +551,33 @@ a,
   text-transform: none;
   font-variant: initial;
   line-height: 1;
-}
+} */
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
   left: 0;
   right: auto;
 }
+/* .swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: "prev";
+} */
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
   right: 0;
   left: auto;
 }
-.swiper-button-prev.swiper-button-white,
+/* .swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: "next";
+} */
+/* .swiper-button-prev.swiper-button-white,
 .swiper-button-next.swiper-button-white {
   --swiper-navigation-color: #ffffff;
 }
 .swiper-button-prev.swiper-button-black,
 .swiper-button-next.swiper-button-black {
   --swiper-navigation-color: #000000;
-}
+} */
 .swiper-button-lock {
   display: none;
 }
