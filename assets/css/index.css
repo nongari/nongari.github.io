@@ -75,11 +75,6 @@ a {
   text-decoration: none;
 }
 
-a.outer {
-  text-decoration: underline;
-  text-decoration-thickness: 0.1rem;
-}
-
 h1,
 .h1 {
   font-family: "BT";
@@ -302,7 +297,7 @@ a,
   padding-top: 1rem;
 
   font-family: "TeX";
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -980,6 +975,10 @@ button.swiper-pagination-bullet {
     font-size: 1rem;
   }
 
+  .social {
+    font-size: 1rem;
+  }
+
   #control {
     right: 1rem;
   }
@@ -989,7 +988,7 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 480px) {
   body {
     margin: 1rem 0 3.5rem;
 
@@ -1008,6 +1007,11 @@ button.swiper-pagination-bullet {
 
   p {
     letter-spacing: -0.04em;
+  }
+
+  .social {
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
   }
 
   .arrow {
