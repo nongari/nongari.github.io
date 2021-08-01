@@ -77,7 +77,7 @@ a {
 
 a.outer {
   text-decoration: underline;
-  text-decoration-thickness: 0.15rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 h1,
@@ -188,12 +188,14 @@ button {
   background-color: transparent;
 }
 
-.arrow:hover {
-  filter: blur(2px);
-}
+@media (hover: hover) and (pointer: fine) {
+  .arrow:hover {
+    filter: blur(2px);
+  }
 
-.arrow:hover {
-  animation: blinking 0.1s infinite;
+  .arrow:hover {
+    animation: blinking 0.1s infinite;
+  }
 }
 
 @keyframes blinking {
