@@ -226,7 +226,7 @@ a,
     background-color: var(--color-black);
 
     filter: blur(0.04rem);
-    animation: dimming 0.1s infinite;
+    /* animation: dimming 0.1s infinite; */
   }
 }
 
