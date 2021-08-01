@@ -75,11 +75,16 @@ a {
   text-decoration: none;
 }
 
+a.outer {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+}
+
 h1,
 .h1 {
   font-family: "BT";
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   line-height: 105%;
   -webkit-transform: scaleX(0.85);
   transform: scaleX(0.85);
@@ -112,10 +117,6 @@ figure {
 
 :focus-visible {
   outline: none !important;
-}
-
-.link-arrow {
-  font-size: 2rem;
 }
 
 /* Scrollbar styles */
@@ -1009,9 +1010,5 @@ button.swiper-pagination-bullet {
 
   .arrow {
     width: 60%;
-  }
-
-  .link-arrow {
-    font-size: 1rem;
   }
 }
