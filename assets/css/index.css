@@ -111,17 +111,17 @@ figure {
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
-  opacity: 0.6;
+  opacity: 0;
 }
 
 ::-webkit-scrollbar-track {
-  border: 0 solid #e6e6e6;
+  border: 0 solid #e6e6e600;
   border-radius: 0;
 }
-
+/* 
 ::-webkit-scrollbar-thumb {
-  background: #000000cc;
-}
+  background: #00000000;
+} */
 
 /* Grid */
 
