@@ -115,8 +115,8 @@ figure {
 }
 
 ::-webkit-scrollbar-track {
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
+  border: 0 solid #e6e6e6;
+  border-radius: 0;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -226,7 +226,7 @@ a,
     background-color: var(--color-black);
 
     filter: blur(0.04rem);
-    /* animation: dimming 0.1s infinite; */
+    animation: dimming 0.1s infinite;
   }
 }
 
