@@ -522,7 +522,7 @@ a,
 .swiper-button-next {
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 40%;
   height: 100%;
   /* margin-top: calc(0px - (var(--swiper-navigation-size) / 2)); */
   z-index: 10;
